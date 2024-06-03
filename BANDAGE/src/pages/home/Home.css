@@ -484,6 +484,10 @@
         padding: 0;
     }
 
+    .home-featured{
+        width: 343px;
+    }
+
     .home-featured h3, p{
         width: 279px;
         margin: auto;
@@ -495,6 +499,7 @@
 
     .best-services{
         display: grid;
+        width: 329px;
     }
 
 
@@ -524,6 +529,7 @@
     }
 
     .featured-posts{
+        width: 329px;
         padding: 112px 0px 112px 0px;
         margin: auto;
         text-align: center;
@@ -581,7 +587,7 @@
 
     .call-to-action{
         text-align: center;
-        width: max-content;
+        width: 100%;
         margin: auto;
         background-image: url(about-bg.jpg);
     }
