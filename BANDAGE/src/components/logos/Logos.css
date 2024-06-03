@@ -40,3 +40,51 @@
     width: 153px;
     align-items: center;
 }
+
+
+
+/* MOBILE VIEW */
+@media only screen and (max-width:667px) {
+    .shop-logos{
+        display: grid;
+        width: 414px;
+        gap: 60px;
+        justify-content: center;
+    }
+
+    #logo-1{
+        display: flex;
+        justify-content: center;
+        width: 153px;
+        align-items: center;
+    }
+    
+    #logo-2{
+        display: flex;
+        justify-content: center;
+        width: 153px;
+        align-items: center;
+    }
+    
+    #logo-3{
+        display: flex;
+        justify-content: center;
+        width: 153px;
+        align-items: center;
+    }
+    
+    #logo-4{
+        display: flex;
+        justify-content: center;
+        width: 153px;
+        align-items: center;
+    }
+    
+    #logo-5{
+        display: flex;
+        justify-content: center;
+        width: 153px;
+        align-items: center;
+    }
+    
+}

@@ -581,8 +581,8 @@
 
     .call-to-action{
         text-align: center;
-        padding: 160px 0 112px 0;
-        width: 100%;
+        width: max-content;
+        margin: auto;
         background-image: url(about-bg.jpg);
     }
     

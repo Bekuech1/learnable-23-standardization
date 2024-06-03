@@ -144,4 +144,11 @@ a{
     margin: 0;
     margin-top: 10px;
 }
+
+.footer-bottom{
+    background-color: var(--secondaryBackgroundColor);
+    width: 193px;
+    margin: auto;
+    text-align: center;
+}
 }

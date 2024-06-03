@@ -1,3 +1,7 @@
+.navbar-2{
+    display: none;
+}
+
 .navbar-body{
     width: 100%px;
     display: flex;
@@ -83,6 +87,49 @@ cursor: pointer;
 @media only screen and (max-width:667px) {
     .navbar-body{
         display: none;
+    }
+
+    .navbar2{
+        width: 414px;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    .nav1{
+        display: flex;
+    }
+
+    .nav1 h3{
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--primartTextColor);
+    }
+
+    .nav2{
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav2 button{
+        background: transparent;
+        border: none;
+    }
+
+    .nav3{
+        padding: 40px;
+        width: 123px;
+        display: grid;
+        justify-content: center;
+        gap: 30px;
+        margin: auto;
+    }
+
+    .nav3 a{
+        width:none;
+        font-size: 30px;
+        font-weight: 400;
+        color: #737373;
     }
 }
 
