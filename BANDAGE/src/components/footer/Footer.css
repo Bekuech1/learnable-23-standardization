@@ -1,0 +1,147 @@
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1050px;
+    padding: 40px 0;
+    margin: auto;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.footer-top h3{
+    font-size: 24px;
+    font-weight: 700;
+    color:  var(--primarytextColor);
+}
+
+.top-links{
+    display: flex;
+    gap: 20px;
+}
+
+.top-links img{
+    width: 24px;
+    height: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footer-middle{
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+    padding: 50px 0px 50px 0px;
+    margin: auto;
+}
+
+.footer-text1{
+    width: 148px;
+}
+
+.footer-text2{
+    width: 152px;
+}
+
+.footer-text3{
+    width: 321px;
+}
+
+.footer-middle h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #252B42;
+}
+
+.footer-middle br{
+    margin: 10px;
+}
+
+.footer-middle a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #737373; 
+}
+
+.footer-text3 p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #737373;
+}
+
+.footer-mail{
+    display: flex;
+    align-items: center;
+}
+
+.footer-mail input{
+    width: 204px;
+    height: 58px;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;
+    background-color: var(--secondaryBackgroundColor);
+    border: 1px solid #E6E6E6;
+    border-right: none;
+}
+
+.footer-mail button{
+    width: 117px;
+    height: 61.5px;
+    padding: 15px 22.5px 15px 22.5px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: var(--blueButton);
+    border: none;
+    color: var(--BackgroundColor);
+    border: 1px solid #E6E6E6;
+    border-left: none;
+}
+
+.grey-background{
+    background-color: var(--secondaryBackgroundColor);
+    width: 99.9%;
+    border: 1px solid var(--secondaryBackgroundColor);
+}
+
+.footer-bottom{
+    background-color: var(--secondaryBackgroundColor);
+    width: 1050px;
+    margin: auto;
+}
+
+.footer-bottom h6{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--greyText);
+}
+
+
+
+
+/* MOBILE VIEW */
+@media only screen and (max-width:667px) {
+    
+.footer-top{
+    display: grid;
+    gap: 11.5px;
+    align-items: left;
+    width:  325px;
+}
+
+
+.footer-middle{
+    display: grid;
+    width: 321px;
+    padding: 70px 0px 70px 0px;
+    margin: auto;
+    gap: 30px;
+}
+
+.footer-text3 p{
+    margin: 0;
+    margin-top: 10px;
+}
+}

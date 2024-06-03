@@ -1,0 +1,70 @@
+.featured-card{
+    width: 298px;
+    height: 306px;
+    padding: 25px 25px 35px 25px;    
+    text-align: left;
+    box-shadow: 0px 2px 4px 0px #0000001A;
+    align-items: center;
+
+}
+
+.featured-card1{
+    display: flex;
+    gap: 15px;
+}
+
+.featured-card1 p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--greyText);   
+}
+
+#featured-active{
+    color: #8EC2F2;
+}
+
+.featured-card h4{
+    font-size: 20px;
+    font-weight: 400;
+    width: 247px;  
+}
+
+#diff-p{
+    font-size: 14px;
+    font-weight: 400;
+    width: 260px;
+    color: var(--greyText);
+}
+
+.featured-card2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-card2 img{
+    height: 16px;
+    width: 16px;
+}
+
+.featured-card2 p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--greyText);
+    display: flex;
+    display: flex;
+    gap: 10px;
+    height: 46px;
+}
+
+.featured-card a{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--greyText);
+    display: flex;
+    gap: 10px;
+}
+
+/* MOBILE VIEW */
+@media only screen and (max-width:667px) {
+    
+}

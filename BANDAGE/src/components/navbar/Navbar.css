@@ -1,0 +1,88 @@
+.navbar-body{
+    width: 100%px;
+    display: flex;
+    height: 58px;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar-left{
+    margin-left: 38px;
+    padding-right: 218px;
+}
+
+.navbar-left h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    align-items: center;
+}
+
+.navbar-right{
+    width: 100%;
+    margin-right: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-right ul{
+display: flex;
+align-items: center;
+list-style: none;
+cursor: pointer;
+}
+
+.list-left li{
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: var(--greyText);
+}
+
+#active-nav{
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: var(--primartTextColor);
+}
+
+.list-right{
+    display: flex;
+    justify-content: center;
+}
+
+#profile{
+    margin-right: 5px;
+}
+
+#login{
+    width: 166px;    
+}
+
+#search{
+    width: 46px;
+}
+
+.list-right button{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: var(--blueButton);
+    background: transparent;
+    border: none;
+    width: 56px;
+}
+
+
+/* MOBILE VIEW */
+@media only screen and (max-width:667px) {
+    .navbar-body{
+        display: none;
+    }
+}
+

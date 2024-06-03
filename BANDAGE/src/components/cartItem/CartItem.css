@@ -1,0 +1,150 @@
+.cart-row{
+    width: 566px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cart-row1{
+    display: flex;
+    gap: 16px;
+}
+
+.cart-row1 img{
+    width: 100px;
+    height: 75px; 
+    margin: 0px; 
+}
+
+.cart-row1 div{
+    display: grid;
+    gap: 6px;
+    margin: 0px;
+    margin-top: 10px;
+    height: fit-content;
+}
+
+.cart-row1 h5{
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+    color: #2B2B2B;
+}
+
+.cart-row1 h6{
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+    color: #2BA501;
+}
+
+#cart-review{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    height: fit-content;
+}
+
+#cart-review div{
+    width: 81.2px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    margin-right: 15px;
+}
+
+#star-icon{
+    width: 14.5px;
+    height: 14.5px;
+}
+
+#cart-review p{
+    font-family: Lato;
+    font-size: 8px;
+    font-weight: 400;
+    text-align: left;
+    color: #3A3C3E;
+    margin: 0px;
+    margin-top: 3px;
+}
+
+.cart-row2{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.cart-row2 button{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 0px;
+    color: #E8EAEC;
+}
+
+.cart-row2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 32px;
+    border-radius: 4px;
+    border: 0.5px solid #3A3C3E;
+    background: transparent;
+}
+
+#cart-row p{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    color: #121517;
+}
+
+#cart-btn-blue{
+    background: var(--blueButton);
+}
+
+.cart-row3{
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    gap: 1px;
+    text-align: left;
+}
+
+.cart-row3 h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #121517;
+    margin: 0px;
+}
+
+.cart-row3 h6{
+    font-size: 10.25px;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin: 0px;
+
+}
+
+#remove-btn{
+    display: flex;
+    width: 100%;
+    height:fit-content;
+    gap: 4px;
+    margin-top: 30px;
+    border: none;
+    background: transparent;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--blueButton);
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DCDCDC;
+}
