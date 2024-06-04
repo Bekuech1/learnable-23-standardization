@@ -1,5 +1,6 @@
 import React from 'react';
-import './Navbar.css'
+import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -13,8 +14,8 @@ export default function Navbar() {
             </div>
             <div className="navbar-right">
                 <ul className='list-left'>
-                    <li> <a href="/">Home</a></li>
-                    <li id="active-nav"> <a href="/Shop">Shop</a></li>
+                    <li> <Link to="/">Home</Link></li>
+                    <li id="active-nav"> <Link to="/Shop">Shop</Link></li>
                     <li>About</li>
                     <li>Blog</li>
                     <li>Contact</li>
@@ -23,7 +24,7 @@ export default function Navbar() {
                 <div className='list-right'>
                     <button id='login'><img id='profile' src="icons/profile.svg" alt="" />Login / Register</button>
                     <button id='search'><img src="icons/search.svg" alt="" /></button>
-                    <button><a href="/shoppingcart"><img src="icons/cart.svg" alt="" /></a></button>
+                    <button><Link to="/shoppingcart"><img src="icons/cart.svg" alt="" /></Link></button>
                     <button><img src="icons/heart.svg" alt="" /></button>
                 </div>
             </div>
@@ -33,12 +34,12 @@ export default function Navbar() {
                 <h3>Bandage</h3>
                 <div className='nav2'>
                     <button id='search'><img src="icons/search2.svg" alt="" /></button>
-                    <button><a href="/shoppingcart"><img src="icons/cart2.svg" alt="" /></a></button>
+                    <button><Link to="/shoppingcart"><img src="icons/cart2.svg" alt="" /></Link></button>
                     <button><img src="icons/menu.svg" alt="" /></button>
                 </div>
             </div>
             <div className='nav3'>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
                 <a href="">product</a>
                 <a href="">pricing</a>
                 <a href="">contact</a>

@@ -90,6 +90,7 @@ cursor: pointer;
     }
 
     .navbar2{
+        display: grid;
         width: 414px;
         margin: auto;
         padding-top: 10px;
